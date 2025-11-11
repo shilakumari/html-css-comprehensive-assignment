@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | InnovateTech Solutions</title>
+    <link rel="icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+    <header>
+        <nav>
+            <div class="logo"><img src="images/logo.jpeg" alt="Logo">InnovateTech</div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section id="contact-info">
+            <h1>Contact Information</h1>
+            <address>
+                InnovateTech Solutions Pvt. Ltd.<br>
+                near Forties Hospital, Sector 63, Noida<br>
+                Email: <a href="mailof:info@innovatechsolutions.com">info@innovatechsolutions.com</a>
+                Phone: <a href="tel:+911111122222">+911111122222</a>
+            </address>
+        
+            <table>
+                <tr><th>Day</th><th>Hours</th></tr>
+                <tr><td>Mon-Fri</td><td>9:00 AM to 6:00 PM</td></tr>
+            </table>
+        </section>
+
+        <section id="contact-form">
+            <h2>Get in Touch</h2>
+            <form>
+                <fieldset>
+                    <legend>Personal Information</legend>
+                    <label>Full Name: <input type="text" required></label>
+                    <label>Email: <input type="email" required></label>
+                    <label>Phone: <input type="tel"></label>
+                    <label>Company / Organization: <input type="text"></label>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Inquiry Details</legend>
+                    <label>Service Interest:
+                        <select>
+                            <option>Web Development</option>
+                            <option>Mobile Apps</option>
+                            <option>Consulting</option>
+                            <option>Other</option>
+                        </select>
+                    </label>
+                    <p>Project Timeline:</p>
+                    <label><input type="radio" name="Timeline"> ASAP </label>
+                    <label><input type="radio" name="Timeline"> 1-3 months </label>
+                    <label><input type="radio" name="Timeline"> 3-6 months</label>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Message</legend>
+                    <textarea row="4" placeholder="Project Description" required></textarea>
+                    <label>Upload Requirements: <input type="file"></label>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Terms</legend>
+                    <label><input type="checkbox" required>I agree to the Terms of Service and Privacy Policy</label>
+                    <label><input type="checkbox" required>Subscribe to our newsletter</label>
+                
+                </fieldset>
+
+                <button type="submit">Submit</button>
+                <button type="reset">Reset</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; InnovateTech Solution. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
