@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Header</title>
+    <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+    <header class="site-header">
+        <div class="header-inner">
+          <!-- Logo -->
+          <a href="assets/logo.jpeg" class="logo">MyLogo</a>
+      
+          <!-- Navigation -->
+          <nav aria-label="Main navigation">
+              <a href="#home" class="active">Home</a>
+              <a href="#about">About</a>
+              <a href="#services">Services</a>
+              <a href="#contact">Contact</a>
+            </ul>
+          </nav>
+      
+          <!-- CTA Button -->
+          <a href="#signup" class="cta-btn">Sign Up</a>
+        </div>
+      </header>
+      
+    
+    <main>
+        <section id="about" aria-labelledby="about-title">
+            <h2 id="about-title">About Me</h2>
+            <p>Hello Everyone! I'm <strong>Shila kumari</strong>, i have build the <em>website</em>.<br/> 
+              I'm passionate about leveraging creative design to solve real-world business challenges 
+              and enjoy staying current with the latest design trends</p>
+          </section>
+      
+          <section id="skills" aria-labelledby="skills-title">
+            <h2 id="skills-title">Skills</h2>
+            <table border="1"> 
+              <thead> 
+                  <tr>
+                      <th>Skill</th>
+                      <th>Experience</th>
+                  </tr>
+              </thead> 
+              <tbody>
+                  <tr>
+                      <td>Python</td>
+                      <td>1 year</td>
+                  </tr>
+                  <tr>
+                      <td>Data Structure</td>
+                  </tr>
+                  <tr>
+                      <td>HTML</td>
+                      <td>1 year</td>
+                  </tr>
+              </tbody> 
+            </table>
+          </section>
+      
+          <section id="projects" aria-labelledby="projects-title">
+            <h2 id="projects-title">Projects</h2>
+            
+            <article>
+              <h3>Library Management System</h3>
+              <p>I have created the website <strong>Library Management System</strong> for Library management purpose.
+                  That will make the person who are managing the library everyday, to reduce the work-load.
+                  Such as who is borrowing, returing the books, who are entering etc, 
+                  to keep track of everything this project will veyr helpfull.  
+              </p>
+              <a href="https://example.com" target="_blank" rel="noopener">View</a>
+            </article>
+      
+            <article>
+              <h3>Exam Suite</h3>
+              <p>I have created the project<strong>Exam Suite</strong> for online examination purpose.
+                  Exam Suite used by most of the exams.<br/>
+                  It is very useful in objective type questions that'll autometically generate randome questions.
+                  No need to set question for each and every person.
+                  Thousands of question are set and autometically generate it.
+                  So that it is very useful in online examinations. 
+              </p>
+              <a href="https://example2.com" target="_blank" rel="noopener">View</a>
+            </article> 
+          </section>
+      
+          <section id="contact" aria-labelledby="contact-title">
+            <h2 id="contact-title">Contact</h2>
+            
+            <form action="/contact" method="GET">
+              <label for="mini-email">Email</label>
+              <input id="mini-email" name="email" type="email" required />
+              <button type="submit">Send</button>
+            </form>
+          </section>
+      
+          <section id="media" aria-labelledby="media-title">
+            <h2 id="media-title">Media</h2>
+              <p>
+                  <video width="320" height="240" controls>
+                      <source src="sample.mp3" type="audio/mpeg">
+                  </video>
+              </p>
+              <p>One YouTube iframe embed<br/>
+                 <iframe width="560" height="315" src="https://www.youtube.com/embed/d3jXofmQm44"
+                 title="YouTube video" frameborder="0"
+                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                 allowfullscreen></iframe> 
+              </p>
+        </section>
+    </main>
+
+    <footer>
+        <p>Responsive header.</p>
+    </footer>
+
+</body>
+</html>
